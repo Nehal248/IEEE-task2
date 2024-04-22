@@ -54,7 +54,13 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 999;
 }
 .logo img{
     width:150px;
@@ -64,7 +70,7 @@ ul{
     align-items: center;
 }
 ul li a{
-    color:rgb(241, 236, 230);
+    color:rgba(11, 5, 83, 0.878);
     margin:0 20px;
 
 }
@@ -199,7 +205,7 @@ hr, .copyright{
 }
 .toggle{
     font-size:30px;
-    color:white;
+    color:rgb(9, 4, 4);
     display:none;
     z-index:99;
 }
@@ -211,7 +217,7 @@ hr, .copyright{
     position:absolute;
     top:0;
     left:0;
-    background-color:(--darkblue);
+    background-color:#2a305f;
     flex-direction: column;
     width:100vw;
     height:100vh;

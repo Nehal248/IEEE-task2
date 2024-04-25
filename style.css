@@ -215,7 +215,7 @@ hr, .copyright{
     width: 150px;
 }
 .toggle {
-    display: block;
+    display: inline;
 }
 .nav-list {
     position: absolute;

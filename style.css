@@ -255,6 +255,9 @@ footer .container {
 footer .col {
     margin-bottom: 30px;
 }
+	.container {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
 }
 
 .wrapper {

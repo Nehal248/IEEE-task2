@@ -170,7 +170,7 @@ ul li a{
 }
 .sponsors-wrapper{
     margin-top: 60px;
-    margin-left: 50px;
+   
     grid-template-columns: repeat(auto-fit,minmax(200px,auto));
 }
 footer{

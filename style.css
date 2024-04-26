@@ -225,14 +225,16 @@ hr, .copyright{
         width:80%
     }
     .nav-list {
-        position: absolute;
-        top: 0;
-        left: 0;
+       position: absolute;
+        top: 65px;
+        left: 230px;
         background-color: #749BE7;
         flex-direction: column;
-        width: 100vw;
-        height: 100vh;
+        width: 50vw;
+        height: 50vh;
         margin-top: -100vh; 
+        font-size: 1rem;
+        
         transition: margin 0.5s ease-in-out;
     }
     .nav-list.active {

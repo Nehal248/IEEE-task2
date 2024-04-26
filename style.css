@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-
-/* ====== Variables ==== */
 :root {
     --darkblue : #242A56;
     --lightblue : #749BE7;
@@ -205,12 +201,17 @@ hr, .copyright{
 }
 .toggle{
     font-size:30px;
-    color:rgb(9, 4, 4);
+    color:rgb(243, 231, 231);
     display:none;
     z-index:99;
 }
 /* mobile device*/
 @media only screen and (max-width:750px){
+    body{
+        font-family: 'Poppins',sans-serif;
+        overflow-x: hidden;
+        max-width:100%;
+    }
     .logo img {
         width: 150px;
     }
@@ -259,10 +260,9 @@ hr, .copyright{
         margin-bottom: 30px;
     }
     .container {
-        .container {
             overflow-x: hidden; 
         }
-    }
+    
 }
 
 .wrapper {
@@ -324,5 +324,5 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh; /* Ensures it's centered vertically on the page */
+    height: 20vh; 
   }

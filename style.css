@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/* ====== Variables ==== */
 :root {
     --darkblue : #242A56;
     --lightblue : #749BE7;
@@ -229,7 +233,7 @@ hr, .copyright{
         flex-direction: column;
         width: 100vw;
         height: 100vh;
-        margin-top: -100vh; /* Adjusted margin-top for smaller screens */
+        margin-top: -100vh; 
         transition: margin 0.5s ease-in-out;
     }
     .nav-list.active {

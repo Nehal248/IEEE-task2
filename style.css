@@ -227,13 +227,13 @@ hr, .copyright{
     .nav-list {
        position: absolute;
         top: 65px;
-        left: 200px;
+        left: 50%;
         background-color: #749BE7;
         flex-direction: column;
         width: 50vw;
         height: 60vh;
         margin-top: -100vh; 
-        font-size: 1rem;
+        font-size: 1re
         
         
         transition: margin 0.5s ease-in-out;

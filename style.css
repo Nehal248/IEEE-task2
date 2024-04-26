@@ -45,7 +45,7 @@ section{
     padding: 60px 0;
 }
 .header{
-    background-image: url('logo.jpg');
+    background-image: url('./img/logo.jpg');
     width:100vw;
     height:100vh;
     background-size: cover;
@@ -54,13 +54,12 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     
-    z-index: 0;
+    z-index: 999;
 }
 .logo img{
     width:150px;
@@ -95,6 +94,7 @@ ul li a{
 .header-content h1{
     font-size:5rem;
 }
+
 .header-content p{
     margin-bottom:30px;
     color: beige;
@@ -212,51 +212,56 @@ hr, .copyright{
 /* mobile device*/
 @media only screen and (max-width:750px){
     .logo img {
-    width: 150px;
-}
-.toggle {
-    display: inline;
-}
-.nav-list {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #749BE7;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    margin-top: -100vh; /* Adjusted margin-top for smaller screens */
-    transition: margin 0.5s ease-in-out;
-}
-.nav-list.active {
-    margin-top: 0;
-}
-.nav-list li {
-    margin: 30px auto;
-}
-.header-content {
-    width: 90%;
-}
-.header-content h1 {
-    font-size: 2rem;
-}
-.title {
-    max-width: 90%;
-}
-.grid {
-    justify-content: center;
-}
-.sponsors-wrapper {
-    margin-top: 30px;
-}
-footer .container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-}
-footer .col {
-    margin-bottom: 30px;
-}
-	.container {
-        width: 90%; /* Adjusted width for smaller screens */
+        width: 150px;
+    }
+    
+    .toggle {
+        display: inline;
+    }nav{
+        width:80%
+    }
+    .nav-list {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #749BE7;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        margin-top: -100vh; /* Adjusted margin-top for smaller screens */
+        transition: margin 0.5s ease-in-out;
+    }
+    .nav-list.active {
+        margin-top: 0;
+    }
+    .nav-list li {
+        margin: 30px auto;
+    }
+    .header-content {
+        width: 90%;
+    }
+    .header-content h1 {
+        font-size: 2rem;
+    }
+    .title {
+        max-width: 90%;
+    }
+    .grid {
+        justify-content: center;
+    }
+    .sponsors-wrapper {
+        margin-top: 30px;
+    }
+    footer .container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    }
+    footer .col {
+        margin-bottom: 30px;
+    }
+    .container {
+        .container {
+            overflow-x: hidden; 
+        }
     }
 }
 

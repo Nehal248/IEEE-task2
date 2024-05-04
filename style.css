@@ -7,7 +7,6 @@
     --lightblue : #749BE7;
     --bg : #EFF2FF;
     --gradient : linear-gradient(to bottom right, #2a305f,#242a5652);
-
     --bold : 600;
     --semi-bold : 500;
 }
@@ -58,7 +57,6 @@ nav{
     top: 0;
     left: 0;
     width: 90%;
-    
     z-index: 999;
 }
 .logo img{
@@ -78,8 +76,6 @@ ul li a{
     background-color: rgb(122, 159, 232);
     border: none;
     color:beige
-    
-    
 }
 .header-content {
   width:50%;
@@ -235,8 +231,6 @@ hr, .copyright{
         height: 70vh;
         margin-top: -100vh; 
         font-size: 1re
-        
-        
         transition: margin 0.5s ease-in-out;
     }
     .nav-list.active {
